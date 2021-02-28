@@ -12,12 +12,13 @@ const test =() => {
   alert("Hello Akshay Chidre");
 }
 
-const age = (a) =>{
-  if(a>18){
-    return("you are not eligiable")
+const age = (a) => {
+  if(a>19){
+    return("you are out");
+
   }
   else{
-    return("you are eligiable");
+    return("you are not out");
   }
 }
 
@@ -35,6 +36,8 @@ function App() {
     </div>
   );
 }
+
+
 
 
 // var newElement = document.createElement("h4");
