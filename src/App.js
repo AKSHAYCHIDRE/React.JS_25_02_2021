@@ -4,6 +4,7 @@ import { render } from '@testing-library/react';
 import React from 'react';
 // import {Header} from './component/Header';
 import Header from './component/Header';
+import CHeader from './component/CHeader';
 
 // const name = <span>Hi i am, Akshay Chidre</span>;
 
@@ -63,7 +64,12 @@ class App extends React.Component{
   render(){
     return(
       <div>
-         <Header/>
+         <Header name="akshay" last="chidre">
+         <span>Need to learn ReactJs </span>
+         </Header>
+         <Header name="baldev" last="pardeshi"/>
+         <Header name="aniket" last="shinde"/>
+         <CHeader/>
       </div>
     )
   }
