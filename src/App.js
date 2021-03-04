@@ -69,7 +69,9 @@ class App extends React.Component{
          </Header>
          <Header name="baldev" last="pardeshi"/>
          <Header name="aniket" last="shinde"/>
-         <CHeader/>
+         <CHeader name="aniket" last="shinde"/>
+         <CHeader name="aniket" last="shinde"/>
+         <CHeader name="aniket" last="shinde"/>
       </div>
     )
   }
