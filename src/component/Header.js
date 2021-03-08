@@ -22,4 +22,15 @@ const Header = (props) =>{
 //     );
 // }
 
+// const Header = (props) =>{
+//     return(
+//         <div>
+//             <h2>
+//             {props.name}- {props.last}
+//             </h2>
+//         </div>
+//     )
+// }
+
+
 export default Header;
