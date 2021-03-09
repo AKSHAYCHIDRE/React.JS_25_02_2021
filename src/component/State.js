@@ -68,30 +68,47 @@ import React from 'react';
 
 
 
+// class State extends React.Component{
+
+//     constructor(){
+//         super();
+//         this.state={
+//             msg:'Text Message'
+//         }
+//     }
+
+//     click(){
+//         this.setState({
+//             msg:'Changed text message'
+//         })
+//     }
+
+//     render(){
+//         return(
+//             <div>
+//                 <h4>
+//                     {this.state.msg}
+//                 </h4>
+//                 <button onClick={ () => { this.click() } }>Click Here</button>
+//             </div>
+//                 )
+//     }
+// }
+
+
+
 class State extends React.Component{
-
-    constructor(){
-        super();
-        this.state={
-            msg:'Text Message'
-        }
+    state={
+        name:'Akshay ',
+        lastname: 'chidre',
     }
-
-    click(){
-        this.setState({
-            msg:'Changed text message'
-        })
-    }
-
     render(){
         return(
             <div>
-                <h4>
-                    {this.state.msg}
-                </h4>
-                <button onClick={ () => { this.click() } }>Click Here</button>
+                <h1>{this.state.name}{this.state.lastname}</h1>
             </div>
-                )
+            
+        )
     }
 }
 
