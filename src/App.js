@@ -3,9 +3,9 @@ import './App.css';
 import { render } from '@testing-library/react';
 import React from 'react';
 // import {Header} from './component/Header';
-import Header from './component/Header';
 import CHeader from './component/CHeader';
 import State from './component/State';
+import Header from './component/Header'
 
 // const name = <span>Hi i am, Akshay Chidre</span>;
 
@@ -342,7 +342,6 @@ class App extends React.Component{
 //         )
 //     }
 // }
-`1`
 
 
 export default App;
