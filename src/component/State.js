@@ -142,15 +142,6 @@ import React from 'react';
 
 
 
-
-
-
-
-
-
-
-
-
 // class State extends React.Component{
     
 //     constructor(){
@@ -181,13 +172,6 @@ import React from 'react';
 // }
 
 
-
-
-
-
-
-
-
 class State extends React.Component{
     constructor(){
         super();
@@ -215,11 +199,6 @@ class State extends React.Component{
         )
     }
 }
-
-
-
-
-
 
 
 
