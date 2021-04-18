@@ -1,7 +1,6 @@
 import React from 'react'
 
 class From extends React.Component{
-
     constructor(props){
         super(props);
         this.state={
@@ -10,7 +9,7 @@ class From extends React.Component{
 
         }
     }
-
+    
     handleusername = (event) =>{
         this.setState({
             username:event.target.value

@@ -7,6 +7,7 @@ import CHeader from './component/CHeader';
 import State from './component/State';
 import Header from './component/Header'
 import From from './component/From';
+import Routing from './component/Routing'
 
 // const name = <span>Hi i am, Akshay Chidre</span>;
 
@@ -76,6 +77,7 @@ class App extends React.Component{
          <CHeader name="aniket" last="shinde"/>
          <State/>
          <From/>
+         <Routing/>
       </div>
     )
   }
